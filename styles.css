@@ -1,0 +1,91 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  
+  --primary-color: rgb(18, 49, 77, 0.7);
+  
+  --secondary-color: rgb(181, 108, 0);
+  
+  --third-color: rgb(9, 105, 93, 0.7);
+  
+  --fourth-color: rgb(46, 45, 44);
+  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(nafis-al-sadnan-w6t471f3bBs-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "Telex", sans-serif;
+  font-weight: 400;
+  font-style: normal;  
+  color: rgb(225, 225, 225);  
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+p {
+  text-transform: uppercase;
+  margin: 10px 0 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 50vh;
+  background-color: rgba(77, 76, 76, 0.61);    
+  backdrop-filter: blur(10px);  
+  padding: 10px;
+}
+
+.icon-home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+}
+
+.icon-home div {
+  text-align: center;
+  padding: 0.1rem 2rem;
+}
+
+.icon-home ion-icon {
+  font-size: 60px;
+}
+
+.social {
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.social ion-icon {
+  padding: 15px;
+}
+
+.social ion-icon:hover {
+  cursor: pointer;
+  transition: transform 2s ease-in-out;
+  transform: scale(1.5);  
+}
+
+.icon-home ion-icon:hover {
+  cursor: pointer;
+  transition: transform 2s ease-in-out;
+  transform: scale(1.5);
+}
