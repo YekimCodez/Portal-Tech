@@ -28,7 +28,7 @@ body {
 .navbar {
    min-height: 8rem;
   background-image:
-    linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),  /* overlay */
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  /* overlay */
     url("/assets/images/nafis-al-sadnan-w6t471f3bBs-unsplash.jpg");
   background-size: cover;
   background-position: center;
