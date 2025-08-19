@@ -25,6 +25,15 @@ body {
   transition: transform .2s ease, filter .2s ease;
 }
 
+.navbar {
+   min-height: 8rem;
+  background-image:
+    linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),  /* overlay */
+    url("/assets/images/nafis-al-sadnan-w6t471f3bBs-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .navbar-brand:hover .logo {
   transform: scale(1.06);
   filter: drop-shadow(0 6px 18px rgba(0,0,0,.35));
@@ -34,7 +43,7 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     text-transform: capitalize;
-    color: #747272;
+    color: rgb(245, 240, 240);
 }
 
 .blue-text {
@@ -50,7 +59,7 @@ body {
 }
 
 .nav-link {
-    color: #747272;
+    color: #ffffff;
 }
 
 .nav-link:hover {
