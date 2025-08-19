@@ -76,12 +76,12 @@ nav {
   color: var(--main-lite);
   font-weight: 500;
   font-size: 1rem;
-  text-decoration: uppercase;
+  text-transform: uppercase;
   transition: color 0.3s ease-in-out;
 }
 
 .nav-menu a:hover {
-  color: var(--secondary1);
+  color: var(--secondary2);
 }
 
 h1 {

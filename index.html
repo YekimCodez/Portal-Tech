@@ -1,74 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Telex&display=swap" rel="stylesheet">
-</head>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 
-<body>
-  <nav>
-    <ul class="nav-menu">
-      <li><a href="">home</a></li>
-      <li><a href="">services</a></li>
-      <li><a href="">about</a></li>
-      <li><a href="">contact</a></li>
-    </ul>
-  </nav>
-  <h1>portal tech co.</h1>
-  <p>choose a category</p>
-  <div class="container">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <div class="icon-home">
-      <div>
-        <ion-icon name="headset-outline"></ion-icon>
-        <p>headphones</p>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portal Tech Co. | </title>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+        
+        <!-- Brand/logo -->
+        <a class="navbar-brand d-flex align-items-center justify-content-center" href="#">
+          <img class="logo me-2" src="/images/main-logo.svg" alt="Portal Tech Co.">
+          <p class="logo-text">p<span class="blue-text">o</span>rtal tech c<span class="blue-text">o</span>.</p>
+        </a>
+
+        <!-- Nav links -->
+        <ul class="nav nav-tabs ms-auto">
+          <li class="nav-item"><a class="nav-link" href="">home</a></li>
+          <li class="nav-item"><a class="nav-link" href="">services</a></li>
+          <li class="nav-item"><a class="nav-link" href="">about</a></li>
+          <li class="nav-item"><a class="nav-link" href="">contact</a></li>
+        </ul>
+
       </div>
+    </header>
+    
+    <h1 class="main-title text-center">portal tech co.</h1>
+    <p class="sub-title text-center">choose a category</p>
+    <div class="container">
 
-      <div>
-        <ion-icon name="print-outline"></ion-icon>
-        <p>printers</p>
+      <div class="icon-home">
+        <div>
+          <ion-icon name="headset-outline"></ion-icon>
+          <p>headphones</p>
+        </div>
+
+        <div>
+          <ion-icon name="print-outline"></ion-icon>
+          <p>printers</p>
+        </div>
+
+        <div>
+          <ion-icon name="tv-outline"></ion-icon>
+          <p>monitors</p>
+        </div>
+
+        <div>
+          <ion-icon name="cloud-download-outline"></ion-icon>
+          <p>storage</p>
+        </div>
+
+        <div>
+          <ion-icon name="hardware-chip-outline"></ion-icon>
+          <p>processors</p>
+        </div>
+
+        <div>
+          <ion-icon name="wifi-outline"></ion-icon>
+          <p>wifi</p>
+        </div>
+
       </div>
-
-      <div>
-        <ion-icon name="tv-outline"></ion-icon>
-        <p>monitors</p>
-      </div>
-
-      <div>
-        <ion-icon name="cloud-download-outline"></ion-icon>
-        <p>storage</p>
-      </div>
-
-      <div>
-        <ion-icon name="hardware-chip-outline"></ion-icon>
-        <p>processors</p>
-      </div>
-
-      <div>
-        <ion-icon name="wifi-outline"></ion-icon>
-        <p>wifi</p>
-      </div>
-
     </div>
-  </div>
 
-  <div class="social">
-    <ion-icon name="logo-facebook"></ion-icon>
-    <ion-icon name="logo-instagram"></ion-icon>
-    <ion-icon name="logo-twitter"></ion-icon>
-  </div>
-
+    <div class="social">
+      <ion-icon name="logo-facebook"></ion-icon>
+      <ion-icon name="logo-instagram"></ion-icon>
+      <ion-icon name="logo-twitter"></ion-icon>
+    </div>
 
 
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
